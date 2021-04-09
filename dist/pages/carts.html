@@ -9,7 +9,48 @@
 </head>
 <body>
     <div class="Header"></div>
-    
+    <div class="main-layout">
+        <ul class="ul-carts-list">
+            <li class="ul-left">
+                <span>
+                    <input type="checkbox">
+                    全选</span>
+                <span>商品信息</span>
+            </li>
+            <li class="ul-right">
+                <span>单价</span>
+                <span>数量</span>
+                <span>金额</span>
+                <span>操作</span>
+            </li>
+        </ul>
+        <div class="carts-list-layout"> 
+            <input class="choice" type="checkbox">  
+            <div class="product-img"></div>
+            <div class="product-msg"></div>
+            <div class="product-price"></div>
+            <div class="product-count">
+                <span>-</span>
+                <input class="num-text" type="text" style="outline: none;border: 0;text-align: center;" value="1">
+                <span>+</span>
+            </div>
+            <div class="product-pay">
+                <span>￥</span>
+                <span></span>
+            </div>
+            <div class="product-operate">
+               <a href="">删除</a>
+            </div>
+        </div>
+        <div class="pay">
+            <div class="price-sum">
+                <span>合计（不含运费）</span>
+                <span>￥</span>
+                <span>0.00</span>
+                <span>结算</span>
+            </div>
+        </div>
+    </div>
     <div class="brand">
         <ul>
             <li><img src="../imgs/brand1.png" alt=""><span>海外直邮</span></li>

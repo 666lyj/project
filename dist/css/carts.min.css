@@ -230,6 +230,11 @@ img {
   margin-left: 80px;
 }
 
+.main-layout .carts-list-layout .product-img img {
+  width: 80px;
+  height: 80px;
+}
+
 .main-layout .carts-list-layout .product-msg {
   width: 300px;
   height: 80px;
