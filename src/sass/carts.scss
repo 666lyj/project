@@ -1,0 +1,165 @@
+@import 'public';
+.main-layout{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .ul-carts-list{
+        width: 1200px;
+        height: 50px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        border-top: 2px solid rgb(127, 121, 121);
+        li{
+            height: 50px;
+            color: #7f7b7b;
+        }
+        li:first-child{
+            padding-left: 20px;
+            display: flex;
+            span{
+                display: block;
+                padding: 10px;
+            }
+            span:first-child{
+                margin-right: 200px;
+            }
+        }
+        li:last-child{
+            padding-right: 20px;
+            display: flex;
+            span{
+                display: block;
+                padding: 10px;
+            }
+            span{
+                margin-right: 100px;
+            }
+            span:last-child{
+                margin-right:20px;
+            }
+        }
+    }
+    .carts-list-layout{
+        width: 1200px;
+        margin: 20px auto 0;
+        position: relative;
+        display: flex;
+        border: 1px solid #ccc;
+        .choice{
+            margin-left: 30px;
+        }
+        .product-img{
+            width: 80px;
+            height: 80px;
+            background-color: red;
+            margin-left: 80px;
+        }
+        .product-msg{
+            width: 300px;
+            height: 80px;
+            background-color: red;
+            margin-left: 80px;
+        }
+        .product-price{
+            width: 100px;
+            height: 80px;
+            background-color: red;
+            margin-left: 150px;
+        }
+        .product-count{
+            position: absolute;
+            top: 50%;
+            right: 300px;
+            transform: translateY(-50%);
+            display: flex;
+            span{
+                display: block;
+                // width: 50px;
+                // height: 50px;
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                color:#ccc;
+                font-size: 20px;
+                font-weight: bold;
+                border: 1px solid #ccc;
+            }
+            .num-text{
+                width: 50px;
+                background-color: #ccc;
+            }
+        }
+        .product-pay{
+            width: 100px;
+            height: 80px;
+            background-color: red;
+            margin-left: 220px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            span{
+                display: block;
+                width: 40px;
+                height: 40px;
+                background-color: pink;
+                text-align: center;
+                line-height: 40px;
+            }
+        }
+        .product-operate{
+            display: flex;
+            align-items: center;
+            justify-content: cneter;
+            a{
+                font-size: 14px;
+                width: 80px;
+                height: 30px;
+                margin-left: 100px;
+            }
+        }
+    }
+    .pay{
+        width: 1200px;
+        height: 50px;
+        background-color: rgb(216, 199, 199);
+        margin: 20px auto 0px;
+        .price-sum{
+            height: 50px;
+            background-color: pink;
+            color: #111111;
+            display: flex;
+            float: right;
+            span{
+                width:50px;
+                height: 50px;
+                line-height: 50px;
+                color: red;
+                font-size: 12px;
+            }
+            span:first-child{
+                width: 100px;
+            }
+            span:nth-child(2){
+                width: 20px;
+            }
+            span:last-child{
+                background-color: red;
+                color: white;
+                text-align: center;
+            }
+        }
+    }
+}
+.brand{
+    width: 100%;
+    padding: 25px 0;
+    ul{
+        display: flex;
+        justify-content: space-around;
+     }
+     ul li *{
+        color: rgb(102,102,102);
+        vertical-align: middle;
+    }
+} 

@@ -1,0 +1,293 @@
+{
+    "grirl_coat":{
+        "sp1":["T恤","吊带/背心","雪纺衫","雪纺衫","上衣","露肩衫","polo杉","卫衣","衬衫","毛衣/针织衫","羊绒衫","皮衣","皮草","大衣","风衣","羽绒服","棉服","西装","马甲","牛仔外套","棒球夹克","外套"],
+        "sp2":["文胸","内衣套装","打底内衣","内裤","塑身内衣","袜子","睡衣","家居服"],
+        "sp3":["半身裙","针织连衣裙","沙滩裙","连衣裙"],
+        "sp4":["正装套装","x休闲套装"],
+        "sp5":["牛仔裤","短裤","正装裤","喇叭裤","阔腿裤","休闲裤","针织运动裤","皮裤","打底裤","连身裤"],
+        "sp6":["运动上衣","运动夏装","运动套装","瑜伽服","户外装/冲锋衣","运动内衣","泳衣","沙滩装","泳镜/泳帽"],
+        "sp7":["情侣上衣","情侣套装","情侣T恤","情侣外套"]
+        },
+        "banner":{
+            "src" :"./imgs/banner.jpg"
+        },
+        "section_img_one":{
+            "img":["./imgs/1.jpg","./imgs/2.jpg","./imgs/3.jpg","./imgs/4.jpg","./imgs/5.jpg","./imgs/6.jpg","./imgs/7.jpg","./imgs/8.jpg","./imgs/9.jpg","./imgs/10.jpg","./imgs/11.jpg",
+                "./imgs/12.jpg","./imgs/13.jpg","./imgs/14.jpg",
+                "./imgs/15.jpg","./imgs/16.jpg","./imgs/17.jpg","./imgs/18.jpg",
+                "./imgs/19.jpg","./imgs/20.jpg","./imgs/21.jpg","./imgs/22.jpg","./imgs/23.jpg","./imgs/24.jpg","./imgs/25.jpg","./imgs/26.jpg","./imgs/27.jpg","./imgs/28.jpg","./imgs/29.jpg","./imgs/30.webp"]
+        },
+        "section_img_two":{
+            "img":["./imgs/b1.jpg","./imgs/b2.jpg"]
+        },
+        "section_img_three":{
+            "img":["./imgs/c1.jpg","./imgs/c2.jpg","./imgs/c3.jpg","./imgs/c4.jpg","./imgs/c5.webp","./imgs/c6.jpg","./imgs/c7.webp","./imgs/c8.jpg","./imgs/c9.jpg","./imgs/c10.jpg",
+                "./imgs/c11.jpg","./imgs/c12.jpg","./imgs/c13.jpg","./imgs/c14.jpg","./imgs/c15.jpg","./imgs/c16.jpg","./imgs/c17.jpg","./imgs/c18.jpg","./imgs/c19.jpg","./imgs/c20.jpg","./imgs/c21.webp",
+                "./imgs/c22.jpg","./imgs/c23.jpg","./imgs/c24.jpg","./imgs/c25.jpg","./imgs/c26.jpg","./imgs/c27.jpg","./imgs/c28.jpg","./imgs/c29.jpg","./imgs/c30.jpg","./imgs/c31.jpg","./imgs/c32.jpg",
+                "./imgs/c33.jpg","./imgs/c34.jpg","./imgs/c35.jpg","./imgs/c36.jpg","./imgs/c37.jpg","./imgs/c38.jpg","./imgs/c39.jpg","./imgs/c40.jpg","./imgs/c41.jpg","./imgs/c42.jpg","./imgs/c43.jpg",
+                "./imgs/c44.jpg","./imgs/c45.jpg","./imgs/c46.png","./imgs/c47.webp","./imgs/c48.jpg","./imgs/c49.webp","./imgs/c50.jpg","./imgs/c51.png","./imgs/c52.webp"
+            ]
+        },
+        "items":[
+            {
+                "point":"Comme des Garcons Play",
+                "name":"Comme des Garcons Play  日本潮牌  小金心T恤短袖T216",
+                "price":"￥466.00"
+            },
+            {
+                "point":"Comme des Garcons Play",
+                "name":"Comme des Garcons Play  日本潮牌男士红心翻领Polo衫",
+                "price":"￥768.00"
+            },
+            {
+                "point":"FAGIRE",
+                "name":"女士修身针织开衫毛衣女V领  HK1167X",
+                "price":"￥158.00"
+            },
+            {
+                "point":"Emporio Armani",
+                "name":"EMPORIO ARMANI/安普里奥·阿玛尼男士翻领纯色衬衫商务休闲衬衣",
+                "price":"￥353.00"
+            },
+            {
+                "point":"Lanvin",
+                "name":"中性双梁时尚太阳镜",
+                "price":"￥854.00"
+            },
+            {
+                "point":"Emporio Armani",
+                "name":"男士棉质短袖T恤",
+                "price":"￥436.00"
+            },
+            {
+                "point":"FAGIRE",
+                "name":"女士春装单排扣宽松手绘涂鸦衬衫  HK1281",
+                "price":"￥297.00"
+            },
+            {
+                "point":"Kenzo",
+                "name":"男士虎头刺绣衬衫",
+                "price":"￥757.00"
+            },
+            {
+                "point":"FAGIRE",
+                "name":"女士春装通勤小西装 HK1263",
+                "price":"￥392.00"
+            },
+            {
+                "point":"Calvin Klein Jeans",
+                "name":"男士多色可选平角内裤一条装",
+                "price":"￥57.00"
+            },
+            {
+                "point":"Calvin Klein",
+                "name":"卡尔文·克莱恩（Calvin Klein）CK 女士三角内裤装套盒 （黑灰-酒红-白色）三条装 S码M码",
+                "price":"￥109.00"
+            },
+            {
+                "point":"1301",
+                "name":"德国LEASY领致刀筷子消毒机家用带烘干小型消毒筷子机全自动烘干筷子盒",
+                "price":"￥399.00"
+            },
+            {
+                "point":"FAGIRE",
+                "name":"女士春装显瘦锥形九分裤 HK1264",
+                "price":"￥325.00"
+            },
+            {
+                "point":"Christian Louboutin",
+                "name":"萝卜丁黑管 002M 哑光",
+                "price":"￥639.00"
+            },
+            {
+                "point":"FAGIRE",
+                "name":"女士春装复古通勤短西服套装 HK1265",
+                "price":"￥489.00"
+            },
+            {
+                "point":"FAGIRE",
+                "name":"女士春夏粉色格纹显瘦小西装 HK1293",
+                "price":"￥395.00"
+            },
+            {
+                "point":"Calvin Klein Jeans",
+                "name":"男士 合体牛仔裤",
+                "price":"￥120.00"
+            },
+            {
+                "point":"Giorgio Armani",
+                "name":"新POWER FABRIC持久零瑕遮瑕清爽粉底液  2#",
+                "price":"￥366.00"
+            },
+           {
+                "point":"FAGIRE",
+                "name":"女士春夏小尖领拼色夹克短外套 HK1296",
+                "price":"￥372.00"
+            },
+            {
+                "point":"Lee",
+                "name":"春夏新品复古背带牛仔裤",
+                "price":"￥148.00"
+            },
+            {
+                "point":"Tom Ford",
+                "name":"黑金黑管唇膏/口红 08号色 velvet cherry",
+                "price":"￥266.00"
+            },
+            {
+                "point":"FAGIRE",
+                "name":"女士小碎花宽松印花衬衫 HK1190",
+                "price":"￥379.00"
+            },
+            {
+                "point":"Prada",
+                "name":"男士时尚经典双梁红标偏光太阳镜PS55QS",
+                "price":"￥1335.00"
+            },
+            {
+                "point":"La Mer",
+                "name":"经典传奇面霜 100ml",
+                "price":"￥2535.00"
+            },
+            {
+                "point":"Prada",
+                "name":"男士深蓝咖色条纹领带",
+                "price":"￥989.00"
+            },
+            {
+                "point":"Holster",
+                "name":"夹趾坡跟厚底沙滩出游户外雨鞋果冻鞋凉拖拖鞋人字拖 HST186MB",
+                "price":"￥172.00"
+            },
+            {
+                "point":"Brador",
+                "name":"男士撞色休闲夹脚凉拖人字拖 BR5A10001RED",
+                "price":"￥73.00"
+            },
+            {
+                "point":"Swarovski",
+                "name":"女士耳饰 5489440 绿色",
+                "price":"￥659.00"
+            },
+            {
+                "point":"Claw Money",
+                "name":"女士头层牛皮一脚蹬鞋",
+                "price":"￥111.00"
+            },
+            {
+                "point":"FAGIRE",
+                "name":"女士春装利落九分裤西装裤 HK1260",
+                "price":"￥333.00"
+            },
+            {
+                "point":"Lancome",
+                "name":"新版 小黑瓶眼霜 15ml",
+                "price":"￥329.00"
+            },
+            {
+                "point":"Kiehl's",
+                "name":"小黄瓜植物精华爽肤水250ml",
+                "price":"￥129.00"
+            },
+            {
+                "point":"Lee",
+                "name":"男士 黑色印花圆领短袖T恤夏",
+                "price":"￥93.00"
+            },
+            {
+                "point":"McQ Alexander McQueen",
+                "name":"男士黑色修身运动裤",
+                "price":"￥970.00"
+            },
+            {
+                "point":"Aape",
+                "name":"Aape X DRAGON BALL SUPER BROLY 神布罗利猿颜短袖T恤9309",
+                "price":"￥261.00"
+            },
+            {
+                "point":"Leasy",
+                "name":"德国LEASY领致弹盖保温杯女不锈钢保温瓶水杯便携直身茶杯创意茶杯",
+                "price":"￥79.00"
+            },
+            {
+                "point":"versace",
+                "name":"男士系带及踝运动鞋",
+                "price":"￥2691.00"
+            },
+            {
+                "point":"Gucci",
+                "name":"男士商务休闲鞋乐福鞋豆豆鞋",
+                "price":"￥4045.00"
+            },
+            {
+                "point":"Duruji Valley",
+                "name":"格鲁吉亚原瓶进口阿拉赞尼半甜白葡萄酒750ml+穆库扎尼干红葡萄酒750ml",
+                "price":"￥488.00"
+            },
+            {
+                "point":"Lee",
+                "name":"款暗蓝色洗水铆钉低腰牛仔长裤",
+                "price":"￥148.00"
+            },
+            {
+                "point":"Z Zegna",
+                "name":"男士深蓝色单件西装",
+                "price":"￥3133.00"
+            },
+            {
+                "point":"Jo Malone",
+                "name":"香水 英国梨与小苍兰 30ml",
+                "price":"￥325.00"
+            },
+            {
+                "point":"Pinko",
+                "name":"Pinko品高 超模何穗杂志同款品高logo brand男友风牛仔裤",
+                "price":"￥527.00"
+            },
+            {
+                "point":"SK-II",
+                "name":"微肌因修护焕采眼霜 15g",
+                "price":"￥500.00"
+            },
+            {
+                "point":"SK-II",
+                "name":"女士肩挎包 F73152IMORP 粉色",
+                "price":"￥989.00"
+            },
+            {
+                "point":"Aape",
+                "name":"Aape × Steven Harrington潮牌 艺术家联名 猿颜迷彩印花长袖T恤9295",
+                "price":"￥9295.00"
+            },
+            {
+                "point":"Off-white",
+                "name":"男士拼色高帮鞋",
+                "price":"￥2892.00"
+            },
+            {
+                "point":"法茄罗",
+                "name":"女士羊皮链条包真皮菱格包单肩斜跨女包FD1422",
+                "price":"￥385.00"
+            },
+           {
+                "point":"Miu Miu",
+                "name":"女式蓝色闪银圆形时尚墨镜",
+                "price":"￥995.00"
+            },
+            {
+                "point":"Prada",
+                "name":"男士尼龙休闲鞋",
+                "price":"￥2216.00"
+            },
+            {
+                "point":"Michael Kors",
+                "name":"拼色单肩链条包斜挎包钱包",
+                "price":"￥1317.00"
+            },
+            {
+                "point":"Tasaisikyo",
+                "name":"日本进口双耳手工拓打高纯铁中华炒锅33CM（配锅盖）",
+                "price":"￥394.00"
+            } 
+        ]
+  }

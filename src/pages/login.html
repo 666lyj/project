@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.min.css">
+</head>
+<body>
+    <div class="Header">  
+        <div class="min_nav">
+             <img src="../imgs/r_logo.png" alt="">
+             <ul>
+                <li>首页</li>
+                <li>新品</li>
+                <li>女士</li>
+                <li>男士</li>
+                <li>品牌</li>
+                <li>走秀移动版</li>
+             </ul>
+             <div class="tab">
+                <a href="register.html">注册</a>
+                <a href="login.html">登录</a>
+                <a href="carts.html">购物车</a>
+             </div>  
+        </div>
+     </div>
+     <div class="middle">
+        <div class="auth-body">
+                <ul>
+                    <li>短信登录</li>
+                    <li>密码登录</li>
+                </ul>
+                <div class="login_box  num">
+                    <div class="number">
+                        <input type="text" style="border:0px" placeholder="请输入手机号">
+                    </div>
+                    <div class="group-code">
+                        <div class="label">图形验证码</div>
+                        <input  style="border:0px;" type="text" class="form-control">
+                    </div>
+                    <div class="number">
+                        <input type="text" style="border:0px"  placeholder="请输入验证码">
+                        <button style="border: 0; background-color: transparent;color:#606266;">发送验证码</button>
+                    </div>
+                    <div class="btn-wrap">
+                        <a href="register.html">注册账号</a>
+                    </div>
+                    <button class="login-btn" style="background-color: #E4393c; border: 0;outline: none;">登录</button>
+                    <div class="other">使用其他网站账号登录</div>
+                </div>
+                <div class="login_box  count">
+                    <div class="number">
+                        <input type="text" style="border:0px"  placeholder="请输入账号(邮箱/手机/用户名）">
+                    </div>
+                    <div class="number">
+                        <input type="password" style="border:0px" placeholder="请输入密码">
+                    </div>
+                    <div class="msg"></div>
+                    <div class="btn-wrap">
+                        <div class="find">
+                            <a  class="first" href="javascript:;">找回密码</a>
+                            <a href="register.html">注册账号</a>
+                        </div>
+                    </div>
+                    <button class="login-btn" style="background-color: #E4393c; border: 0;outline: none;">登录</button>
+                    <div class="other">使用其他网站账号登录</div>
+                </div>
+        </div>
+    </div>
+     <div class="brand">
+        <ul>
+            <li><img src="../imgs/brand1.png" alt=""><span>海外直邮</span></li>
+            <li><img src="../imgs/brand2.png" alt="">品质保证</li>
+            <li><img src="../imgs/brand3.png" alt="">售后保障</li>
+        </ul>
+    </div>
+    <div class="Footer"></div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <script>
+        $('.Footer').load('../pages/public.html .bigfooter');
+    </script>
+    <script src="../../dist/js/login.min.js"></script>
+    <script src="../../dist/js/cookie.min.js"></script>
+</body>
+</html>

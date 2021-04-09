@@ -1,0 +1,27 @@
+.paging {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.paging div {
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.paging div.disable {
+  color: #fff;
+  cursor: not-allowed;
+  background-color: lightgray;
+}
+
+.paging div.active {
+  border: none;
+  background-color: #4ed8fa;
+  color: #fff;
+}

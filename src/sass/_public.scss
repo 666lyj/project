@@ -1,0 +1,135 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,hr,ul,ol,td,input,option,textarea{
+	margin:0;
+	padding:0;
+}
+a{
+    color: #111;
+}
+body{
+	font-family: "微软雅黑";
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+}
+img{
+	border: none;
+}
+/* header部分 */
+.bigheader{
+    width: 100%;
+}
+.header{
+    width: 1200px;
+    height: 70px;
+    background: url(../imgs/1.png) no-repeat center center;
+    margin: 0 auto;
+    position:relative;
+}
+.header .login{
+    font-size: 12px;
+    height: 16px;
+    color: black;
+    position: absolute;
+    top: 10px;
+}
+.header .login a{
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #333;
+    background: transparent;
+    cursor: pointer;
+    border-right: 1px solid #bbb;
+}
+.header .login .last{
+    border-right: none;
+
+}
+.header .serch{
+    position: absolute;
+    top: 10px;
+    right: 0;
+} 
+.header .serch input{
+    padding-left:8px ;
+    width: 300px;
+    height: 28px;
+}
+
+/* footer部分*/
+.bigfooter{
+    width: 100%;
+    background: rgb(17,17,17);
+}
+.footer_one{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom:40px;
+    width: 1200px;
+    height: 188px;
+    margin: 0 auto;
+}
+.footer_one .list{
+    height: 185px;
+    border-right: 1px solid #aaa;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.footer_one .logo{
+    width: 200px;
+    background: url('../imgs/f1.png') no-repeat center top;
+}
+.link_one{
+    width: 57px;
+}
+.link_one ul li{
+    padding-bottom: 23px;
+    font-size: 14px;
+    color: #ddd;
+    cursor: pointer;
+}
+.link_two{
+    width: 306px;
+}
+.xiu{
+    display: flex;
+    justify-content: space-between;
+}
+.xiu img{
+    width: 82px;
+    height: 82px;
+}
+.link_three{
+    width: 194px;
+}
+.list .tit{
+    padding-bottom: 30px;
+    font-size: 14px;
+    color: #ddd;
+}
+.footer_two{
+    width: 100%;
+    padding-top: 27px;
+    border-top: 1px solid #aaa;
+    padding-bottom: 20px;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+}
+.footer_three{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.footer_three .service{
+   padding-right: 50px;
+}

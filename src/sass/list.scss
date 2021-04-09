@@ -1,0 +1,144 @@
+@import 'public';
+.main-layout{
+    width: 100%;
+    padding-top: 24px;
+    .brand-filter-list{
+        width: 1200px;
+        margin: 0 auto;
+        padding-top: 2px;
+        padding-bottom: 56px;
+        .prouduct-filter-title{
+            padding-top: 16px;
+            padding-left: 15px;
+            background-color: #f7f7f7;
+            color: #111111;
+            font-size: 15px;
+            font-weight: bold;
+            border-bottom: 2px solid #111111;
+        }
+        .filter-wrap{
+            width: 100%;
+            .filter-ul-title{
+                width: 100%;
+                position: relative;
+                display: flex;
+                .filter-title{
+                    width: 112px;
+                    // height: 100%;
+                    background-color: #f7f7f7;
+                    position: relative;
+                    .label{
+                        width: 96px;
+                        height: 24px;
+                        color:white;
+                        font-size: 13px;
+                        background-color: #111111;
+                        position: absolute;
+                        text-align:center;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%,-50%);
+                    }
+                }
+                .condition-list{
+                    width: 863px;
+                    padding-top: 16px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    .condition{
+                        width: 112px;
+                        padding-left: 15px;
+                        padding-right: 15px;
+                        padding-bottom: 15px;
+                        text-align: center;
+                        cursor: pointer;
+                        font-size: 13px;
+                        line-height: 1;
+                        color: #a8b0ba
+                    }
+                }
+                .more{
+                    position:absolute;
+                    top:50%;
+                    right:16px;
+                    color:#a8b0ba;
+                    font-size: 12px;
+                    cursor: pointer;
+                    *{
+                        vertical-align: middle;
+                    }
+                }
+            }
+            .more-condition{
+                float: right;
+                width: 116px;
+                height: 23px;
+                line-height: 20px;
+                font-size: 10px;
+                background-color: #111;
+                color: #fff;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+    } 
+    .sort-list{
+        width: 1176px;
+        padding-left: 24px;
+        margin: 0 auto;
+        display: flex;
+        border-bottom: 1px solid #111111;
+        .sort-active{
+            padding: 23px 18px 24px;
+        }
+        .sort-active:first-child{
+            border-bottom: 2px solid #111111;
+        }
+    }
+    .product-display-wrap{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-bottom: 100px;
+        a{
+            display: block;
+            margin-top: 20px;
+            img{
+                display: block;
+                width: 248px;
+                height: 298px;
+            }
+            .point{
+                margin-bottom: 10px;
+                color:#111111;
+                font-size: 18px;
+            }
+            .name{
+                margin-bottom: 20px;
+                color:#6D6c6c;
+                font-size: 16px;
+            }
+            .price{
+                margin-bottom: 10px;
+                
+            }
+        }
+        a:hover{
+            box-shadow: rgb(241, 230, 230) 0px 0px 5px 2px;
+        }
+    }
+}
+.brand{
+    width: 100%;
+    padding: 25px 0;
+    ul{
+        display: flex;
+        justify-content: space-around;
+     }
+     ul li *{
+        color: rgb(102,102,102);
+        vertical-align: middle;
+    }
+} 

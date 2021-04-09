@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/carts.min.css">
+</head>
+<body>
+    <div class="Header"></div>
+    <div class="main-layout">
+        <ul class="ul-carts-list">
+            <li class="ul-left">
+                <span>
+                    <input type="checkbox">
+                    全选</span>
+                <span>商品信息</span>
+            </li>
+            <li class="ul-right">
+                <span>单价</span>
+                <span>数量</span>
+                <span>金额</span>
+                <span>操作</span>
+            </li>
+        </ul>
+        <div class="carts-list-layout"> 
+            <input class="choice" type="checkbox">  
+            <div class="product-img"></div>
+            <div class="product-msg"></div>
+            <div class="product-price"></div>
+            <div class="product-count">
+                <span>-</span>
+                <input class="num-text" type="text" style="outline: none;border: 0;text-align: center;" value="1">
+                <span>+</span>
+            </div>
+            <div class="product-pay">
+                <span>￥</span>
+                <span></span>
+            </div>
+            <div class="product-operate">
+               <a href="">删除</a>
+            </div>
+        </div>
+        <div class="pay">
+            <div class="price-sum">
+                <span>合计（不含运费）</span>
+                <span>￥</span>
+                <span>0.00</span>
+                <span>结算</span>
+            </div>
+        </div>
+    </div>
+    <div class="brand">
+        <ul>
+            <li><img src="../imgs/brand1.png" alt=""><span>海外直邮</span></li>
+            <li><img src="../imgs/brand2.png" alt="">品质保证</li>
+            <li><img src="../imgs/brand3.png" alt="">售后保障</li>
+        </ul>
+    </div>
+    <div class="Footer"></div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <script>
+        $('.Header').load('../pages/public.html .bigheader');
+        $('.Footer').load('../pages/public.html .bigfooter');
+   </script>
+</body>
+</html>

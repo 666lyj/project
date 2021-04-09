@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/list.min.css">
+    <link rel="stylesheet" href="../css/paging.min.css">
+</head>
+<body>
+    <div class="Header"></div>
+    <div class="main-layout">
+        <div class="brand-filter-list">
+            <div class="prouduct-filter-title">
+                筛选
+            </div>
+            <div class="filter-wrap">
+                <div class="filter-ul-title">
+                    <div class="filter-title">
+                        <div class="label">品牌</div>
+                    </div>
+                    <ul class="condition-list">
+                        <li class="condition">阿玛尼</li>
+                        <li class="condition">阿玛尼</li>
+                        <li class="condition">阿玛尼</li>
+                        <li class="condition">阿玛尼</li>
+                        <li class="condition">阿玛尼</li>
+                        <li class="condition">阿玛尼</li>
+                        <li class="condition">阿玛尼</li>
+                    </ul>
+                    <div class="more">
+                        更多
+                        <img src="../img/list_down.png" alt="">
+                    </div>
+                </div> 
+                <div class="filter-ul-title">
+                    <div class="filter-title">
+                        <div class="label">分类</div>
+                    </div>
+                    <ul class="condition-list">
+                        <li class="condition">T恤</li>
+                        <li class="condition">T恤</li>
+                        <li class="condition">T恤</li>
+                        <li class="condition">T恤</li>
+                        <li class="condition">T恤</li>
+                        <li class="condition">T恤</li>
+                        <li class="condition">T恤</li>
+                    </ul>
+                    <div class="more">
+                        更多
+                        <img src="../img/list_down.png" alt="">
+                    </div>
+                </div> 
+                <div class="filter-ul-title">
+                    <div class="filter-title">
+                        <div class="label">发货地</div>
+                    </div>
+                    <ul class="condition-list">
+                        <li class="condition">香港</li>
+                        <li class="condition">香港</li>
+                        <li class="condition">香港</li>
+                        <li class="condition">香港</li>
+                        <li class="condition">香港</li>
+                        <li class="condition">香港</li>
+                        <li class="condition">香港</li>
+                    </ul>
+                    <div class="more">
+                        更多
+                        <img src="../img/list_down.png" alt="">
+                    </div>
+                </div> 
+                <div class="filter-ul-title">
+                    <div class="filter-title">
+                        <div class="label">颜色</div>
+                    </div>
+                    <ul class="condition-list">
+                        <li class="condition">灰色</li>
+                        <li class="condition">灰色</li>
+                        <li class="condition">灰色</li>
+                        <li class="condition">灰色</li>
+                        <li class="condition">灰色</li>
+                        <li class="condition">灰色</li>
+                        <li class="condition">灰色</li>
+                    </ul>
+                    <div class="more">
+                        更多
+                        <img src="../img/list_down.png" alt="">
+                    </div>
+                </div> 
+                <div class="filter-ul-title">
+                    <div class="filter-title">
+                        <div class="label">尺码</div>
+                    </div>
+                    <ul class="condition-list">
+                        <li class="condition">M</li>
+                        <li class="condition">M</li>
+                        <li class="condition">M</li>
+                        <li class="condition">M</li>
+                        <li class="condition">M</li>
+                        <li class="condition">M</li>
+                        <li class="condition">M</li>
+                    </ul>
+                    <div class="more">
+                        更多
+                        <img src="../img/list_down.png" alt="">
+                    </div>
+                </div> 
+                <div class="filter-ul-title">
+                    <div class="filter-title">
+                        <div class="label">价格</div>
+                    </div>
+                    <ul class="condition-list">
+                        <li class="condition">0-1000</li>
+                        <li class="condition">0-1000</li>
+                        <li class="condition">0-1000</li>
+                        <li class="condition">0-1000</li>
+                        <li class="condition">0-1000</li>
+                        <li class="condition">0-1000</li>
+                        <li class="condition">0-1000</li>
+                    </ul>
+                    <div class="more">
+                        更多
+                        <img src="../img/list_down.png" alt="">
+                    </div>
+                </div>  
+                <div class="more-condition">
+                    展开更多选项
+                </div> 
+            </div>
+        </div>  
+        <ul class="sort-list">
+            <li class="sort-active">默认</li>
+            <li class="sort-active">按时间</li>
+            <li class="sort-active">按销量</li>
+            <li class="sort-active">按价格</li>
+        </ul>
+        <div class="product-display-wrap">
+        </div>
+    </div>
+    <div class="paging">
+        <div>
+            <div class="disable"></div>
+            <div class="active"></div>
+        </div>
+    </div>
+    <div class="brand">
+        <ul>
+            <li><img src="../imgs/brand1.png" alt=""><span>海外直邮</span></li>
+            <li><img src="../imgs/brand2.png" alt="">品质保证</li>
+            <li><img src="../imgs/brand3.png" alt="">售后保障</li>
+        </ul>
+    </div>
+    <div class="Footer"></div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <script>
+        $('.Header').load('../pages/public.html .bigheader');
+        $('.Footer').load('../pages/public.html .bigfooter');
+    </script>
+    <script src="../../dist/js/list.min.js"></script>
+    <script src="../../dist/js/paging.min.js"></script>
+    <script>
+        let paging = new Paging({
+            total: 54,
+        });
+    </script>
+
+</body>
+</html>

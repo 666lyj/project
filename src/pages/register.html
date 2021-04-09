@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/register.min.css">
+</head>
+<body>
+    <div class="Header"></div>
+     <div class="middle">
+         <div class="auth-body">
+             <div class="regst">
+                 <div class="title">在 zouxiu 注册</div>
+                 <div class="tip">
+                    请填写以下信息在ZOUXIU注册。
+                    我们将保存您提供的资料以方便您网上购物。
+                  </div>
+                  <div class="group-number">
+                      <div class="label">手机号码</div>
+                      <input  style="border:0px;" type="text" class="form-control">
+                  </div>
+                  <div class="group-code">
+                    <div class="label">图形验证码</div>
+                    <input  style="border:0px;" type="text" class="form-control">
+                </div>
+                <div class="group-code">
+                    <div class="label">短信验证码</div>
+                    <input  style="border:0px;" type="text" class="form-control">
+                </div>
+                <div class="group-number">
+                    <div class="label">密码由6-12位英文字母、数字或符号组成</div>
+                    <input  style="border:0px;" type="text" class="form-control">
+                </div>
+                <div class="label-checkbox">
+                    <span ><input type="checkbox"></span>
+                    <span class="inner">我同意
+                        <a href="assign">《走秀用户协议》</a>
+                    </span>
+                </div>
+                <div class="mess"></div>
+                <input type="button" value="注册" class="btn"></input>
+             </div>
+         </div>
+     </div>
+     <div class="brand">
+        <ul>
+            <li><img src="../imgs/brand1.png" alt=""><span>海外直邮</span></li>
+            <li><img src="../imgs/brand2.png" alt="">品质保证</li>
+            <li><img src="../imgs/brand3.png" alt="">售后保障</li>
+        </ul>
+    </div>
+    <div class="Footer"></div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <script>
+         $('.Header').load('../pages/public.html .bigheader');
+        $('.Footer').load('../pages/public.html .bigfooter');
+    </script>
+    <script src="../../dist/js/register.min.js"></script>
+    <script src="../../dist/js/cookie.min.js"></script>
+</body>
+</html>

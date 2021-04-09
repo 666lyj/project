@@ -1,0 +1,168 @@
+@import 'public';
+.Header{
+    width: 100%;
+    padding-bottom:26px;
+}
+.min_nav{
+    display: flex;
+    background-color: rgb(17,17,17);
+    width: 100%;
+    align-items: center;
+    position: relative;
+    img{
+        display: block;
+        width: 173px;
+        height: 25px;
+        cursor: pointer;
+        margin-right:50px;
+    }
+    ul{
+        display: flex;
+        color: white;
+    }
+    ul li{
+        padding: 15px 25px;
+        margin: 0 25px;
+        border-bottom:2px solid transparent;
+    }
+    ul li:hover{
+        border-bottom:2px solid rgb(195,154,88) ;
+    }
+    .tab{
+        position: absolute;
+        right: 0;
+        a{
+            padding-left: 16px;
+            padding-right: 16px;
+            height: 20px;
+            line-height: 20px;
+            font-size: 14px;
+            color: #fff;
+            background: transparent;
+            cursor: pointer;
+            border-right: 1px solid #bbb;
+        }
+    }
+}
+.middle{
+    width: 100%;
+    padding: 50px 0;
+    .auth-body{
+        width: 1200px;
+        margin: 0 auto;
+        ul{
+            width: 300px;
+            height: 22px;
+            display: flex;
+            align-items: center;
+            margin: 0  auto;
+        }
+        ul li{
+            padding: 0 20px;
+            font-size: 22px;
+            font-weight:bold ;
+        }
+        ul li:first-child{
+            color: #161619;
+            border-right: 2px solid #afafaf;
+        }
+        ul li:last-child{
+            color: #999;
+        }
+        .login_box{
+            width: 300px;
+            height: 550px;
+            background-color: white;
+            margin: 50px auto;
+            .number{
+                width: 100%;
+                height: 42px;
+                padding-top: 25px;
+                margin-top:20px ;
+                border-bottom: 1px solid #afafaf;
+                position: relative;
+                input{
+                    width:300px ;
+                    height: 42px;
+                    outline: none;
+                }
+                button{
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+            .group-code{
+                width: 100%;
+                height: 59px;
+                padding-top: 25px;
+                margin-top:20px ;
+                border-bottom: 1px solid #afafaf;
+                .label{
+                    width: 100%;
+                    font-size: 14px;
+                    color: #999;
+                    height: 12px;
+                    padding-bottom: 5px;
+                }
+                input{
+                    width:300px ;
+                    height: 42px;
+                    outline: none;
+                }
+               
+            }
+        }
+        .msg{
+            width: 100%;
+        }
+        .btn-wrap{
+            width: 300px;
+            height: 12px;
+            margin-top: 36px;
+            position: relative;
+            .find{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                display: flex;
+            }
+            .first{
+                border-right: 1px solid #606266;
+            }
+            a{
+                display: block;
+                // position: absolute;
+                // right: 0;
+                // bottom: 0;
+                padding: 0 5px;
+                font-size: 14px;
+                color:  #606266;
+            }
+        }
+        .login-btn{
+            width: 300px;
+            height: 40px;
+            margin-top: 45px;
+        }
+        .other{
+            margin-top: 25px;
+            font-size: 12px;
+        }
+    }
+    .two{
+        display: none;
+    }
+}  
+.brand{
+    width: 100%;
+    padding: 25px 0;
+    ul{
+        display: flex;
+        justify-content: space-around;
+     }
+     ul li *{
+        color: rgb(102,102,102);
+        vertical-align: middle;
+    }
+} 
